@@ -1,1 +1,1 @@
-![Alt text](magma_image.jpg?raw=true "Title")
+![Alt text](magma_image.png?raw=true "Title")
