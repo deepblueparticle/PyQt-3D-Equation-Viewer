@@ -23,7 +23,6 @@ class MyWindow(QtWidgets.QMainWindow):
             return np.cos(np.sqrt(x ** 2 + y ** 2))
         x = np.linspace(-5, 6, 40)
         y = np.linspace(-5, 6, 40)
-        # Returns number spaces evenly w.r.t interval. Similar to arange but instead of step it uses sample number.
         X, Y = np.meshgrid(x, y)
         Z = func(X, Y)
         
@@ -61,7 +60,6 @@ class MyWindow(QtWidgets.QMainWindow):
             return np.cos(np.sqrt(x ** 2 + y ** 2))
         x = np.linspace(-5, 6, 40)
         y = np.linspace(-5, 6, 40)
-        # Returns number spaces evenly w.r.t interval. Similar to arange but instead of step it uses sample number.
         X, Y = np.meshgrid(x, y)
         Z = func(X, Y)
         
